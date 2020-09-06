@@ -1,0 +1,24 @@
+
+
+.gallery {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, 200px);
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 20px;
+}
+
+.search-input{
+    display:block;
+    margin: 2rem auto;
+    width: 30%; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.25rem;
+    
+}
+
+::placeholder{
+    font-size: 1rem;
+}
